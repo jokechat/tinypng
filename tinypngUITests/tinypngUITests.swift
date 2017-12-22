@@ -31,6 +31,12 @@ class tinypngUITests: XCTestCase {
     func testExample() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssert(true == true, "简单测试")
+    }
+    
+    func testHello()
+    {
+        XCTAssert(true)
     }
     
 }
