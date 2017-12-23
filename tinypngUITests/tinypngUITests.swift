@@ -2,8 +2,8 @@
 //  tinypngUITests.swift
 //  tinypngUITests
 //
-//  Created by 张奎 on 2017/12/23.
-//  Copyright © 2017年 张奎. All rights reserved.
+//  Created by jokechat on 2017/12/23.
+//  Copyright © 2017年 jokechat. All rights reserved.
 //
 
 import XCTest

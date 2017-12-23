@@ -130,6 +130,8 @@
 				CB05396FBFC743B0E9283827 /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
+			wrapsLines = 1;
 		};
 		54C460C21FED739F0023DA09 /* Products */ = {
 			isa = PBXGroup;
@@ -259,7 +261,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = "张奎";
+				ORGANIZATIONNAME = jokechat;
 				TargetAttributes = {
 					54C460C01FED739F0023DA09 = {
 						CreatedOnToolsVersion = 9.2;
