@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4F804222FA8617BCA3FC18F9 /* Pods_tinypng.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F35ED922C134EDF16B820B /* Pods_tinypng.framework */; };
+		5446D2471FEF8F2100EFAB8D /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5446D2461FEF8F2100EFAB8D /* MainController.swift */; };
 		54C460C51FED739F0023DA09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C460C41FED739F0023DA09 /* AppDelegate.swift */; };
-		54C460C71FED739F0023DA09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C460C61FED739F0023DA09 /* ViewController.swift */; };
 		54C460C91FED739F0023DA09 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C460C81FED739F0023DA09 /* Document.swift */; };
 		54C460CC1FED739F0023DA09 /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54C460CA1FED739F0023DA09 /* Document.xcdatamodeld */; };
 		54C460CE1FED739F0023DA09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54C460CD1FED739F0023DA09 /* Assets.xcassets */; };
@@ -46,9 +46,9 @@
 		3A9768DEED38D6975CC4B62C /* Pods-tinypngTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinypngTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tinypngTests/Pods-tinypngTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3B15C6288980F9A235EF37FF /* Pods-tinypng-tinypngUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinypng-tinypngUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tinypng-tinypngUITests/Pods-tinypng-tinypngUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4943F909E3AFD4965C2CAAED /* Pods-tinypng-tinypngTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinypng-tinypngTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tinypng-tinypngTests/Pods-tinypng-tinypngTests.release.xcconfig"; sourceTree = "<group>"; };
+		5446D2461FEF8F2100EFAB8D /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		54C460C11FED739F0023DA09 /* tinypng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tinypng.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C460C41FED739F0023DA09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		54C460C61FED739F0023DA09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		54C460C81FED739F0023DA09 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		54C460CB1FED739F0023DA09 /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
 		54C460CD1FED739F0023DA09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -147,7 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				54C460C41FED739F0023DA09 /* AppDelegate.swift */,
-				54C460C61FED739F0023DA09 /* ViewController.swift */,
+				5446D2461FEF8F2100EFAB8D /* MainController.swift */,
 				54C460C81FED739F0023DA09 /* Document.swift */,
 				54C460CD1FED739F0023DA09 /* Assets.xcassets */,
 				54C460CF1FED739F0023DA09 /* Main.storyboard */,
@@ -493,9 +493,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				54C460CC1FED739F0023DA09 /* Document.xcdatamodeld in Sources */,
-				54C460C71FED739F0023DA09 /* ViewController.swift in Sources */,
 				54C460C51FED739F0023DA09 /* AppDelegate.swift in Sources */,
 				54C460C91FED739F0023DA09 /* Document.swift in Sources */,
+				5446D2471FEF8F2100EFAB8D /* MainController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

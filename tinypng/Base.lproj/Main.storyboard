@@ -382,10 +382,10 @@
             </objects>
             <point key="canvasLocation" x="75" y="250"/>
         </scene>
-        <!--View Controller-->
+        <!--Main Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="5gI-5U-AMq" customClass="ViewController" customModule="tinypng" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5gI-5U-AMq" customClass="MainController" customModule="tinypng" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="ERx-hH-rdd">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -406,7 +406,7 @@
                                     <font key="font" usesAppearanceFont="YES"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="clickSettings:" target="5gI-5U-AMq" id="6ah-Uy-8rN"/>
+                                    <action selector="clickSettings:" target="5gI-5U-AMq" id="OcY-QI-H3g"/>
                                 </connections>
                             </button>
                         </subviews>
