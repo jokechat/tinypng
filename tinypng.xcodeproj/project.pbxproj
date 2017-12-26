@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4F804222FA8617BCA3FC18F9 /* Pods_tinypng.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F35ED922C134EDF16B820B /* Pods_tinypng.framework */; };
 		5446D2471FEF8F2100EFAB8D /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5446D2461FEF8F2100EFAB8D /* MainController.swift */; };
+		5446D2491FF0016700EFAB8D /* logTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5446D2481FF0016700EFAB8D /* logTests.swift */; };
 		54C460C51FED739F0023DA09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C460C41FED739F0023DA09 /* AppDelegate.swift */; };
 		54C460C91FED739F0023DA09 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C460C81FED739F0023DA09 /* Document.swift */; };
 		54C460CC1FED739F0023DA09 /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54C460CA1FED739F0023DA09 /* Document.xcdatamodeld */; };
@@ -47,6 +48,7 @@
 		3B15C6288980F9A235EF37FF /* Pods-tinypng-tinypngUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinypng-tinypngUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tinypng-tinypngUITests/Pods-tinypng-tinypngUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4943F909E3AFD4965C2CAAED /* Pods-tinypng-tinypngTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinypng-tinypngTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tinypng-tinypngTests/Pods-tinypng-tinypngTests.release.xcconfig"; sourceTree = "<group>"; };
 		5446D2461FEF8F2100EFAB8D /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		5446D2481FF0016700EFAB8D /* logTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = logTests.swift; sourceTree = "<group>"; };
 		54C460C11FED739F0023DA09 /* tinypng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tinypng.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C460C41FED739F0023DA09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54C460C81FED739F0023DA09 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				54C460DC1FED73A00023DA09 /* tinypngTests.swift */,
+				5446D2481FF0016700EFAB8D /* logTests.swift */,
 				54C460DE1FED73A00023DA09 /* Info.plist */,
 			);
 			path = tinypngTests;
@@ -389,11 +392,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-tinypng/Pods-tinypng-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +508,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5446D2491FF0016700EFAB8D /* logTests.swift in Sources */,
 				54C460DD1FED73A00023DA09 /* tinypngTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,6 +6,7 @@ target 'tinypng' do
   use_frameworks!
   pod 'Alamofire', '~> 4.0'
   pod 'SwiftyJSON'
+  pod 'SwiftyBeaver'
   
   # Pods for tinypng
 
