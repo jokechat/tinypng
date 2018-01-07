@@ -5,8 +5,8 @@ target 'tinypng' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
   pod 'Alamofire', '~> 4.0'
-  pod 'SwiftyJSON'
-  pod 'SwiftyBeaver'
+  pod 'SwiftyJSON','4.0.0'
+  pod 'SwiftyBeaver' ,'1.5.0'
   pod 'HandyJSON', '4.0.0-beta.1'
   
   # Pods for tinypng

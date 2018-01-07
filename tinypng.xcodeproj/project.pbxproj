@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4F804222FA8617BCA3FC18F9 /* Pods_tinypng.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F35ED922C134EDF16B820B /* Pods_tinypng.framework */; };
+		54247FDD2000FDF600932FC9 /* Http.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54247FDC2000FDF600932FC9 /* Http.swift */; };
 		5446D2471FEF8F2100EFAB8D /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5446D2461FEF8F2100EFAB8D /* MainController.swift */; };
 		5446D2491FF0016700EFAB8D /* logTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5446D2481FF0016700EFAB8D /* logTests.swift */; };
+		544A5FAD2000B7F600C3DE50 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544A5FAC2000B7F600C3DE50 /* Log.swift */; };
 		54C460C51FED739F0023DA09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C460C41FED739F0023DA09 /* AppDelegate.swift */; };
 		54C460C91FED739F0023DA09 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C460C81FED739F0023DA09 /* Document.swift */; };
 		54C460CC1FED739F0023DA09 /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54C460CA1FED739F0023DA09 /* Document.xcdatamodeld */; };
@@ -17,6 +19,8 @@
 		54C460D11FED739F0023DA09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C460CF1FED739F0023DA09 /* Main.storyboard */; };
 		54C460DD1FED73A00023DA09 /* tinypngTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C460DC1FED73A00023DA09 /* tinypngTests.swift */; };
 		54C460E81FED73A00023DA09 /* tinypngUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C460E71FED73A00023DA09 /* tinypngUITests.swift */; };
+		54E66C4D1FFE5A68009FD379 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E66C4C1FFE5A68009FD379 /* AppConfig.swift */; };
+		54E66C4F1FFE5AAF009FD379 /* configTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E66C4E1FFE5AAF009FD379 /* configTests.swift */; };
 		5DE57D068A29865286F7EAFC /* Pods_tinypngUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD04112EF660D98F4F191BB8 /* Pods_tinypngUITests.framework */; };
 		6C27F1C9B9ACED48216615FF /* Pods_tinypng_tinypngUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC93EB139911AAD226A23B90 /* Pods_tinypng_tinypngUITests.framework */; };
 		CDA3407607DD45379AD46FA3 /* Pods_tinypngTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F8CA40187EDB469F51CD80 /* Pods_tinypngTests.framework */; };
@@ -47,8 +51,10 @@
 		3A9768DEED38D6975CC4B62C /* Pods-tinypngTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinypngTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tinypngTests/Pods-tinypngTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3B15C6288980F9A235EF37FF /* Pods-tinypng-tinypngUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinypng-tinypngUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tinypng-tinypngUITests/Pods-tinypng-tinypngUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4943F909E3AFD4965C2CAAED /* Pods-tinypng-tinypngTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinypng-tinypngTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tinypng-tinypngTests/Pods-tinypng-tinypngTests.release.xcconfig"; sourceTree = "<group>"; };
+		54247FDC2000FDF600932FC9 /* Http.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Http.swift; sourceTree = "<group>"; };
 		5446D2461FEF8F2100EFAB8D /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		5446D2481FF0016700EFAB8D /* logTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = logTests.swift; sourceTree = "<group>"; };
+		544A5FAC2000B7F600C3DE50 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		54C460C11FED739F0023DA09 /* tinypng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tinypng.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C460C41FED739F0023DA09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54C460C81FED739F0023DA09 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
@@ -63,6 +69,8 @@
 		54C460E31FED73A00023DA09 /* tinypngUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tinypngUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C460E71FED73A00023DA09 /* tinypngUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tinypngUITests.swift; sourceTree = "<group>"; };
 		54C460E91FED73A00023DA09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E66C4C1FFE5A68009FD379 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		54E66C4E1FFE5AAF009FD379 /* configTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = configTests.swift; sourceTree = "<group>"; };
 		57301681F7BBBF21B1B955EC /* Pods-tinypngUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinypngUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tinypngUITests/Pods-tinypngUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		660C9AC42A0365F0E4392219 /* Pods-tinypng.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinypng.release.xcconfig"; path = "Pods/Target Support Files/Pods-tinypng/Pods-tinypng.release.xcconfig"; sourceTree = "<group>"; };
 		690BCEF6583ABACAE08FD6D3 /* Pods-tinypngUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinypngUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tinypngUITests/Pods-tinypngUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +129,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		544A5FAB2000B7D700C3DE50 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				544A5FAC2000B7F600C3DE50 /* Log.swift */,
+				54247FDC2000FDF600932FC9 /* Http.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		54C460B81FED739F0023DA09 = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +165,11 @@
 		54C460C31FED739F0023DA09 /* tinypng */ = {
 			isa = PBXGroup;
 			children = (
+				544A5FAB2000B7D700C3DE50 /* utils */,
+				54E66C4B1FFE5A41009FD379 /* config */,
+				54E66C4A1FFE5A36009FD379 /* controllers */,
+				54E66C491FFE5A24009FD379 /* views */,
+				54E66C481FFE5A18009FD379 /* models */,
 				54C460C41FED739F0023DA09 /* AppDelegate.swift */,
 				5446D2461FEF8F2100EFAB8D /* MainController.swift */,
 				54C460C81FED739F0023DA09 /* Document.swift */,
@@ -166,6 +188,7 @@
 				54C460DC1FED73A00023DA09 /* tinypngTests.swift */,
 				5446D2481FF0016700EFAB8D /* logTests.swift */,
 				54C460DE1FED73A00023DA09 /* Info.plist */,
+				54E66C4E1FFE5AAF009FD379 /* configTests.swift */,
 			);
 			path = tinypngTests;
 			sourceTree = "<group>";
@@ -177,6 +200,35 @@
 				54C460E91FED73A00023DA09 /* Info.plist */,
 			);
 			path = tinypngUITests;
+			sourceTree = "<group>";
+		};
+		54E66C481FFE5A18009FD379 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		54E66C491FFE5A24009FD379 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		54E66C4A1FFE5A36009FD379 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		54E66C4B1FFE5A41009FD379 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				54E66C4C1FFE5A68009FD379 /* AppConfig.swift */,
+			);
+			path = config;
 			sourceTree = "<group>";
 		};
 		CB05396FBFC743B0E9283827 /* Frameworks */ = {
@@ -392,12 +444,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-tinypng/Pods-tinypng-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -499,8 +553,11 @@
 			files = (
 				54C460CC1FED739F0023DA09 /* Document.xcdatamodeld in Sources */,
 				54C460C51FED739F0023DA09 /* AppDelegate.swift in Sources */,
+				544A5FAD2000B7F600C3DE50 /* Log.swift in Sources */,
+				54E66C4D1FFE5A68009FD379 /* AppConfig.swift in Sources */,
 				54C460C91FED739F0023DA09 /* Document.swift in Sources */,
 				5446D2471FEF8F2100EFAB8D /* MainController.swift in Sources */,
+				54247FDD2000FDF600932FC9 /* Http.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +567,7 @@
 			files = (
 				5446D2491FF0016700EFAB8D /* logTests.swift in Sources */,
 				54C460DD1FED73A00023DA09 /* tinypngTests.swift in Sources */,
+				54E66C4F1FFE5AAF009FD379 /* configTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,6 +717,7 @@
 			baseConfigurationReference = 366F6D3A571C159A98FE7E2F /* Pods-tinypng.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				CODE_SIGN_ENTITLEMENTS = tinypng/tinypng.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -676,6 +735,7 @@
 			baseConfigurationReference = 660C9AC42A0365F0E4392219 /* Pods-tinypng.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				CODE_SIGN_ENTITLEMENTS = tinypng/tinypng.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
