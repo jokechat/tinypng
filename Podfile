@@ -7,6 +7,7 @@ target 'tinypng' do
   pod 'Alamofire', '~> 4.0'
   pod 'SwiftyJSON'
   pod 'SwiftyBeaver'
+  pod 'HandyJSON', '4.0.0-beta.1'
   
   # Pods for tinypng
 
